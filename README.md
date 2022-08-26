@@ -45,8 +45,10 @@ The analysis of the election shows that:
 ## Election-Audit Summary
 ### A Business Proposal to Election Commission
 Dear Members of Election Commission,  
-The script written for the above analysis can also be used for future election audits. Modifications will be needed based on the type of analysis required. Currently, the script reads data in a .csv file (with ballot id, county and candidate voted for), analyzes and prints results to a text file for visualization. 
-- If you plan to add more counties to the current dataset, the original script still holds good without modifications.
-- The script can be extended for future elections such as presidential election. In this scenario, more datasets with state and electoral college votes need to be analyzed. Accordingly, the script would be changed to add more data structures and decision statements.
-- The program can also be extended to visualize the analysis results with tables and charts using data visualization tools like Tableau, Excel. Even,the map of Colorado can also be used to provide in depth analysis of voting data. Voting data can be analyzed based on political parties and demographic data (such as age, race, gender).  
-These are some of the ways to use the current script to enhance the scope of analysis in any election.
+The script written for the current audit can also be used for future election audits. Modifications will be needed based on the type of analysis required. Currently, the script reads data in a .csv file (with ballot id, county and candidate voted for), analyzes and prints results to a text file for visualization. Here are some of the ways to use the current script to enhance the scope of analysis in any election.
+- If you plan to add more counties in the state to the current dataset, the original script still holds good without modifications.
+- The script can be extended for future elections such as presidential election. In this scenario, more datasets with state and electoral college votes need to be analyzed. Accordingly, the script needs to be changed to add more data structures to hold data along with necessary decision and repetition statements.
+- The program can also be extended to visualize the analysis results with tables and charts using data visualization tools like Tableau, Excel. An in depth analysis of election audit can be shown using the maps of Colorado or United States. 
+- Voting data can be also analyzed based on political parties and demographic data (such as voters' age, race, gender).
+I hope that you would reuse this script for future analysis with the above considerations.
+
